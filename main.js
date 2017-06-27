@@ -21,14 +21,14 @@ for (var i = 0; i < bandLoopCount; i += 1) {
 
   
   // Add the band names into the correct <div>
-  currentBand += bands[i] + " "
-  bandElement.innerHTML = currentBand
+  
+  bandElement.innerHTML += `<p>${bands[i]}`
 };
   
 for (var i = 0; i < veggieLoopCount; i += 1) {
   
   // Add the veggie names into the correct <div>
-  currentVeggie += vegetabls[i] + " ";
-  veggieElement.innerHTML = curentveggie
+  
+  veggieElement.innerHTML += `<p>${vegetables[i]}`
 
 };
